@@ -1,0 +1,1 @@
+CREATE TABLE "order" ("id" uuid NOT NULL, "user_id" uuid NOT NULL, "plate_id" uuid[] NOT NULL, "price_total" integer NOT NULL, "estimated_time" varchar NOT NULL, "created_at" timestamp NOT NULL DEFAULT now(), CONSTRAINT "PK_1031171c13130102495201e3e20" PRIMARY KEY ("id"))
